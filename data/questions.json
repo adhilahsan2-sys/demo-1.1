@@ -1,0 +1,25 @@
+{
+  "software_developer": [
+    "What is Object Oriented Programming?",
+    "Explain polymorphism.",
+    "What is encapsulation?",
+    "What is inheritance?",
+    "What is REST API?"
+  ],
+
+  "data_analyst": [
+    "What is data cleaning?",
+    "What is normalization in databases?",
+    "Explain SQL joins.",
+    "What is data visualization?",
+    "What is the difference between structured and unstructured data?"
+  ],
+
+  "machine_learning_engineer": [
+    "What is machine learning?",
+    "What is supervised learning?",
+    "What is overfitting in machine learning?",
+    "What is the difference between classification and regression?",
+    "What are neural networks?"
+  ]
+}

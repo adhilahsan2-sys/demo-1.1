@@ -1,0 +1,85 @@
+Question: What is Object Oriented Programming (OOP)?
+
+Answer:
+Object Oriented Programming is a programming paradigm based on objects and classes.
+It allows developers to structure programs using concepts like encapsulation, inheritance,
+polymorphism, and abstraction. OOP improves code reuse, scalability, and maintainability.
+
+---
+
+Question: What is a REST API?
+
+Answer:
+REST API is an architectural style used for communication between systems over HTTP.
+It uses methods such as GET, POST, PUT, and DELETE. REST APIs are stateless and commonly
+used in web services for exchanging data between client and server.
+
+---
+
+Question: What is polymorphism?
+
+Answer:
+Polymorphism is the ability of a function, method, or object to behave differently
+based on the context. In object-oriented programming, it allows the same method
+to perform different tasks depending on the object calling it.
+
+---
+
+Question: What is encapsulation?
+
+Answer:
+Encapsulation is the concept of hiding internal implementation details and exposing
+only necessary functionality. It is achieved using classes where data is protected
+using access modifiers like private, public, and protected.
+
+---
+
+Question: What is inheritance?
+
+Answer:
+Inheritance is a mechanism where one class derives properties and behavior from another class.
+It promotes code reuse and establishes a relationship between a parent class and child class.
+
+---
+
+Question: What is a database?
+
+Answer:
+A database is an organized collection of data that can be easily accessed,
+managed, and updated. Databases are typically managed using database management
+systems such as MySQL, PostgreSQL, and MongoDB.
+
+---
+
+Question: What is SQL?
+
+Answer:
+SQL (Structured Query Language) is a programming language used to manage and manipulate
+relational databases. It allows users to query, insert, update, and delete data.
+
+---
+
+Question: What is normalization?
+
+Answer:
+Normalization is the process of organizing data in a database to reduce redundancy
+and improve data integrity. It divides tables into smaller tables and establishes
+relationships between them.
+
+---
+
+Question: What is Git?
+
+Answer:
+Git is a distributed version control system used to track changes in source code
+during software development. It allows multiple developers to collaborate on the
+same project efficiently.
+
+---
+
+Question: What is machine learning?
+
+Answer:
+Machine learning is a subset of artificial intelligence that enables computers
+to learn patterns from data and make predictions without being explicitly programmed.
+It is widely used in recommendation systems, image recognition, and natural language processing.

@@ -2,6 +2,30 @@ from backend.llm.groq_client import ask_groq
 from backend.utils.logger import log_event
 
 
+# ✅ SKILL EXTRACTION WITH EXPLANATION (NEW)
+def extract_skills_with_explanation(context, session_id="default"):
+
+    prompt = f"""
+From the following resume:
+
+{context}
+
+Extract key skills and explain WHY each skill is selected.
+
+Return in this format:
+
+Skill: <skill name>
+Reason: <why selected from resume>
+"""
+
+    result = ask_groq(prompt)
+
+    # 🔥 LOG SKILL EXPLANATION
+    log_event("SKILL_EXPLANATION", result, session_id)
+
+    return result
+
+
 # ✅ QUESTION GENERATION
 def generate_question(context, session_id="default"):
 

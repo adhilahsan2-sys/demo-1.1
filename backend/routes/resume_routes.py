@@ -24,5 +24,6 @@ async def upload_resume(file: UploadFile = File(...)):
 
     return {
         "message": "Resume uploaded successfully",
-        "summary": result["summary"]
+        "summary": result["summary"],
+        "skills": result["skills"]   # ✅ FIXED
     }

@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 from backend.services.interview_service import generate_question, evaluate_answer
+from backend.utils.logger import log_event   # ✅ NEW
 
 router = APIRouter()
 
@@ -26,6 +27,9 @@ def generate_question_api(request: QuestionRequest):
 
 @router.post("/evaluate-answer")
 def evaluate_answer_api(request: AnswerRequest):
+
+    # 🔥 LOG USER ANSWER (FIX)
+    log_event("USER_ANSWER", request.answer)
 
     evaluation = evaluate_answer(request.question, request.answer)
 

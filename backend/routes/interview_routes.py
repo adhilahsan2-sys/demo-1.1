@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from backend.services.interview_service import generate_question, evaluate_answer
-from backend.utils.logger import log_event   # ✅ NEW
+from services.interview_service import generate_question, evaluate_answer
+from utils.logger import log_event   # ✅ NEW
 
 router = APIRouter()
 

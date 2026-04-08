@@ -1,5 +1,5 @@
-from backend.llm.groq_client import ask_groq
-from backend.utils.logger import log_event
+from llm.groq_client import ask_groq
+from utils.logger import log_event
 
 
 # ✅ SKILL EXTRACTION WITH EXPLANATION (NEW)

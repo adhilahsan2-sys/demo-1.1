@@ -1,4 +1,4 @@
-from backend.services.interview_service import generate_question, evaluate_answer
+from services.interview_service import generate_question, evaluate_answer
 
 context = """
 Skills: Python, Machine Learning

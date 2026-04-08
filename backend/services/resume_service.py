@@ -1,8 +1,8 @@
-from backend.utils.file_loader import extract_text_from_pdf
-from backend.utils.text_chunker import chunk_text
-from backend.rag.vector_store import store_resume_chunks
-from backend.llm.groq_client import ask_groq
-from backend.utils.logger import log_event
+from utils.file_loader import extract_text_from_pdf
+from utils.text_chunker import chunk_text
+from rag.vector_store import store_resume_chunks
+from llm.groq_client import ask_groq
+from utils.logger import log_event
 
 
 # ✅ RESUME SUMMARY (unchanged)

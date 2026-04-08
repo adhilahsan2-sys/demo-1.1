@@ -1,6 +1,6 @@
 from langchain_chroma import Chroma
-from backend.rag.embeddings import get_embedding_model
-from backend.utils.logger import log_event   # ✅ IMPORT LOGGER
+from rag.embeddings import get_embedding_model
+from utils.logger import log_event   # ✅ IMPORT LOGGER
 
 DB_PATH = "database/chroma_db"
 

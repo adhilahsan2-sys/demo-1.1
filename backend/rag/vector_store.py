@@ -1,5 +1,5 @@
 from langchain_chroma import Chroma
-from backend.rag.embeddings import get_embedding_model
+from rag.embeddings import get_embedding_model
 
 DB_PATH = "database/chroma_db"
 
